@@ -1,0 +1,106 @@
+/* TODO: Add a Google Font import (choose any font you like) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* TODO: Set up basic reset styles (margin, padding, box-sizing) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* TODO: Style the body with a background color and font family */
+body{
+    background-color: #fff;
+    color: #030E11;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile-card {
+    /* TODO: Add width, margin, background color, border-radius, and box-shadow */
+    width: 80em;
+    margin: 50px 20px;
+    background-color: #F3E9D2 ;
+    border:1px solid #F3E9D2 ;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    /* TODO: Add padding and set overflow to hidden */
+    padding: 4em;
+    overflow: hidden;
+}
+
+.profile-card header {
+    /* TODO: Style the header with text alignment, padding, and background color */
+    text-align: center;
+    padding: 2em;
+    background-color: #F3E9D2;
+}
+
+.profile-img {
+    /* TODO: Add styles for the profile image (width, height, border-radius, etc.) */
+    width: 20em;
+    height:15em;
+    border-radius: 3em;
+}
+
+.profile-name {
+    /* TODO: Style the name with font size, weight, color, and margin */
+    font-size: 4em;
+    font-weight: 200;
+    color: #030E11;
+}
+
+.profile-title {
+    /* TODO: Style the title with font size, color, and margin */
+    font-size: 2em;
+    color: #030E11;
+    margin: 2px 1px;
+}
+
+.profile-details {
+    /* TODO: Add padding to the details section */
+    padding: 5em;
+}
+
+.profile-bio {
+    /* TODO: Style the bio with font size, line height, and color */
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #000;
+}
+
+.profile-skills {
+    /* TODO: Style the skills list (remove list style, add padding) */
+    list-style-type: none;
+    padding : 4px;
+    /* TODO: Style the skills list items (display, background, margin, etc.) */
+    display: block ;
+    background-color: #F3E9D2;
+    margin: 4px;
+
+}
+
+.profile-footer {
+    /* TODO: Style the footer with background color, padding, and text alignment */
+    background-color:#030E11;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.social-link {
+    /* TODO: Style social links (display, color, margin, etc.) */
+    display : inline;
+    color : #fff;
+    text-decoration: none;
+    margin: 3em;
+    /* TODO: Add hover effect for social links */
+}
+
+.social-link:hover{
+    color: brown;
+    width: 5em;
+}
+
